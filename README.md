@@ -22,7 +22,7 @@ The dataset was synthetically generated to simulate real-world business data con
 
 🔧 Cleaning Steps Performed:
 
-1. **Missing Value Handling
+1.Missing Value Handling
    - Filled missing `Age` and `Spending_Score` using column averages.
    - Replaced missing `Country` entries with `"UNKNOWN"`.
 
@@ -30,7 +30,7 @@ The dataset was synthetically generated to simulate real-world business data con
    - Removed exact duplicate rows using Google Sheets `Remove duplicates` feature.
 
 3.Text Standardization
-   - Converted all `Gender` entries to lowercase (`male`, `female`)
+   - Converted all `Gender` entries to uppercase (`MALE`, `FEMALE`)
    - Converted all `Country` entries to uppercase (`INDIA`, `USA`, etc.)
 
 4.Date Formatting
